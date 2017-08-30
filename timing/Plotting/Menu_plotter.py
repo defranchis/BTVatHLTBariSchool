@@ -121,7 +121,7 @@ while k< len(Thists):
         if args.ext:
             Thists[k].GetXaxis().SetRangeUser(0,2000)
         else:
-            Thists[k].GetXaxis().SetRangeUser(0,400)
+            Thists[k].GetXaxis().SetRangeUser(0,1000)
         Thists[k].Draw()
         leg.AddEntry(Thists[k],name,"l")
     else:

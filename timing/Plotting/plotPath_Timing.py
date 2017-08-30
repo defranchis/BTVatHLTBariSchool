@@ -108,7 +108,7 @@ def plotInputComparison(files,runs,processes,path):
             if args.ext:
                 Thists[k].GetXaxis().SetRangeUser(0,2000)
             else:
-                Thists[k].GetXaxis().SetRangeUser(0,140)
+                Thists[k].GetXaxis().SetRangeUser(0,1200)
             Thists[k].Draw()
 
         else:
@@ -121,7 +121,7 @@ def plotInputComparison(files,runs,processes,path):
         if args.ext:
             Thists[k].GetXaxis().SetRangeUser(0,2000)
         else:
-            Thists[k].GetXaxis().SetRangeUser(0,140)
+            Thists[k].GetXaxis().SetRangeUser(0,1200)
   
         leg.AddEntry(Thists[k],name,"l")
         k+=1
