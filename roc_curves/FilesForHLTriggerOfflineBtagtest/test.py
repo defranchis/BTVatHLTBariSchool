@@ -110,7 +110,6 @@ process.hltBtagTriggerSelection
 +	process.VertexValidationVertices
 +	process.bTagValidation
 +	process.bTagPostValidation
-#+	process.EDMtoMEConverter
 +	process.dqmSaver
 )	
 
